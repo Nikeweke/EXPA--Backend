@@ -1,5 +1,11 @@
+
+
 # Basic
-#### Содержание 
+
+* [Tutorial for Beginner](https://www.youtube.com/watch?v=w-7RQ46RgxU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp)
+* [Install NodeJs on Unix](https://losst.ru/ustanovka-node-js-ubuntu-16-04#)
+
+### Содержание 
 * Hello world
 * Create server
 * Подключение одного файла к другому
@@ -13,7 +19,8 @@
 
 ---
 
-#### Hello world
+## Hello world
+
 Чтобы запустить файл для node, надо перейти в ту директорию где лежит файл app.js и тогда исполнить команду:
 ```bash
 node app
@@ -26,7 +33,7 @@ console.log('Hello world')
 ```
 
 
-#### Create server
+## Create server
 
 ```javascript
 var http = require('http');
@@ -50,7 +57,7 @@ server.listen(3000, '127.0.0.1');
 console.log('Server is Launched');
 ```
 
-####  Подключение одного файла к другому (count.js -> app.js)
+##  Подключение одного файла к другому (count.js -> app.js)
 
 ```javascript
 //-----count.js
@@ -77,7 +84,7 @@ console.log(stuff.counter(['shit', 'crystal']))
 console.log(stuff.counter1(1,2))
 ```
      
-####   Вызов событий (event Emitter)
+##   Вызов событий (event Emitter)
 
 ```javascript
 var events       =    require('events');
@@ -89,8 +96,7 @@ eventEmitter.on('Boom', Hello)
 eventEmitter.emit('Boom');
 ```
 
-####   Запись и чтения из файла(txt)
-
+##  Запись и чтения из файла(txt)
 ```javascript
 var fs = require('fs'); // подключаем библиотеку для чтения и записи файла
 
@@ -109,7 +115,7 @@ fs.readFile('shit.txt', 'utf8', function(err, data)
 //------------------------
 ```
 
-####   Создание и удаление файлов, папок
+##   Создание и удаление файлов, папок
 ```javascript
 var fs = require('fs'); // подключаем библиотеку для чтения и записи файла
 
@@ -139,11 +145,11 @@ fs.mkdir('stuff', function()
 ```
 
 
-###  Пишущие и читающие потоки и Буферы 
+##  Пишущие и читающие потоки и Буферы 
 >  Разница между этим способом и fs.writeFile & fs.ReadFile
 >  - с потоками вроде как быстрее из-за разбивание на кусочки инфы
 
-#####  Читаем файл через поток (прикол в чем: в том что если файл большой то он передаеться частями)
+##  Читаем файл через поток (прикол в чем: в том что если файл большой то он передаеться частями)
 ```javascript
 var fs = require('fs');
 
@@ -157,7 +163,7 @@ myReadStream.on('data', function(chunk)
 ```
 
 
-#####  Читаем файл через поток и записываем в другой файл через пишущий поток
+##  Читаем файл через поток и записываем в другой файл через пишущий поток
 
 ```javascript
 var fs = require('fs');
@@ -176,7 +182,7 @@ myReadStream.on('data', function(chunk)
  });
 ```
 
-####  Pipes 
+##  Pipes 
 Автоматическое перенаправление читающего потока в пишущий для записи или вывода
 
 ```javascript
@@ -215,7 +221,7 @@ console.log('Server is Launched');
 ```
 
 
-####  Вывод HTML-страниц
+## Вывод HTML-страниц
 
 ```javascript
 var http = require('http'); // http
@@ -244,7 +250,7 @@ var fs = require('fs'); // Read and Write Stream
 ```
 
 
-####  Вывод JSON-данных
+## Вывод JSON-данных
 
 ```javascript
 var http = require('http'); // http

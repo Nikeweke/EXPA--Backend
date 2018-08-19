@@ -10,7 +10,7 @@
 
 --- 
 
-#### Install 
+### Install 
 * Installing locally (composer.phar)  
 > curl -sS https://getcomposer.org/installer | php
 > then use: `php composer.phar require ...`

@@ -24,13 +24,12 @@
 * [Sync DB](#sync_db)
 ---
 
-
-
 ## Комманды в консоле <a id="commands"></a>
 * **sails lift** - поднять сервер Sails
 * **sails new MyProject** - создаст проект в папке где находишься
 * **sails generate controller page** - создает контроллер PageController.js
 * **sails generate api status** - создает StatusController.js(api/controllers) и Status.js(api/models)
+
 
 ## Настройки запуска <a id="settings"></a>
 Так можно установить вручную порт и среду запуска

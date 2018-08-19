@@ -5,13 +5,13 @@
 * **Запуск проекта после скачки с репозитория**
 * **Полезные пакеты**
 * **Tutorials and docs**
-* [**Комманды Artisan**](#kомманды-artisan)
-* [**SQL & Eloquent(Tricks)**](#sql--eloquenttricks)
-* [**Localization**](#localization)
-* [**Шаблонизатор(Blade)**](#Шаблонизаторblade)
-* [**Middleware**](#middleware)
-* [**Session**](#session)
-* [**Cookies**](#cookies)
+* **Комманды Artisan**
+* **SQL & Eloquent(Tricks)**
+* **Localization**
+* **Шаблонизатор(Blade)**
+* **Middleware**
+* **Session**
+* **Cookies**
 * **Проблемы и решения**
 
 --- 
@@ -64,6 +64,7 @@ function GetSomething($itemId)
    return DB::select("call product_with_cats_names('$itemId')");
  }
 ```
+
 ###### Сохранение и апдейт данных -  `$this->save()`, `$this->insert()`, `$this->create()`, `$user->fill()`, `self::find()`.
 ```php 
 //$this->save() - просто создает запись в БД
@@ -97,13 +98,14 @@ echo trans('validation.alert'); // выведет внимание
 ```
 
 ## Шаблонизатор(Blade)
-{{-- коммент --}}
 ###### IndexController.php
 ```php
 /// передача данных в шаблон
 function Index(){
-$data = 'hello dudes';
-return view('index', ['title' => $data]);
+  $data = 'hello dudes';
+  return view('index', ['title' => $data]);
+
+  // {{-- коммент --}} в blade
 }
 ```
 

@@ -8,7 +8,7 @@
 
 ---
 
-#### EJS (.ejs)
+## EJS (.ejs)
 ###### index.ejs
 ```ejs
 <% layout('layout') -%>
@@ -43,7 +43,7 @@
 ```
 
 
-#### Nunjucks (.njk)
+## Nunjucks (.njk)
 ###### config/views.js (sailsjs)
 ```js
 engine: {
@@ -90,7 +90,7 @@ engine: {
 </html>
 ```
 
-#### Pug (.pug)
+## Pug (.pug)
 ###### config/views.js (sailsjs)
 ```js
 engine: 'pug',

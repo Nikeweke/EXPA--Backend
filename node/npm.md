@@ -11,12 +11,12 @@
 
 --- 
 
-##### Init package.json`
+## Init `package.json`
 ```
 npm init
 ```                        
                
-##### Install all packages from `packages.json`
+## Install all packages from `packages.json`
 > (если проект стоит без пакетов и есть записи зависимостей в Package.json - то, оно установить все пакеты которые указаны там)
 
 ```
@@ -24,26 +24,26 @@ npm install
 npm i
 ```                
             
-##### Install package
+## Install package
 ```
 npm install namePackage
 npm i namePackage
 
 ```        
       
-##### Install package into dependencies section (`-S` or `--save`)
+## Install package into dependencies section (`-S` or `--save`)
 > (зачем? для того чтобы следить и знать какие пакеты установены в проекте)
 
 ```
 npm install namePackage --save
 ```      
 
-##### Install package into dev section (`-D` or `--dev`)
+## Install package into dev section (`-D` or `--dev`)
 ```
 npm install namePackage -D
 ```    
         
-##### Remove package
+## Remove package
 ```
 npm uninstall namePackage
 npm rm namePackage

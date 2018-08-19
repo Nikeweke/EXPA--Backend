@@ -1,9 +1,9 @@
 # PHP
-* [Composer](/backend/php/composer.md)
-* [Laravel ](/backend/php/laravel.md)
-* [Symfony](/backend/php/symfony.md)
-* [Sqlite](/backend/php/sqlite.md)
-* [Websockets\(ratchet\)](/backend/php/websockets-ratchet.md)
+* [Composer](/php/composer.md)
+* [Laravel ](//php/laravel.md)
+* [Symfony](/php/symfony.md)
+* [Sqlite](/php/sqlite.md)
+* [Websockets\(ratchet\)](/php/websockets-ratchet.md)
 
    
    
