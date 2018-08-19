@@ -5,10 +5,10 @@ actionText: Get Started →
 actionLink: /php
 features:
 - title: PHP
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+  details: Cкриптовый язык общего назначения, интенсивно применяемый для разработки веб-приложений.
 - title: Node
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+  details: Программная платформа, основанная на движке V8 (транслирующем JavaScript в машинный код), превращающая JavaScript из узкоспециализированного языка в язык общего назначения.
 - title: Golang
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+  details: компилируемый многопоточный язык программирования, разработанный внутри компании Google.
 footer: MIT Licensed | Copyright © 2018-present Nikeweke
 ---
