@@ -1,7 +1,8 @@
 module.exports = {
   title: 'Backend experience',
   description: 'Experience from life',
-  base: '/',
+  base: '/EXPA--Backend/',
+  dest: 'docs',
 
   themeConfig: {
     nav: [
