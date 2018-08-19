@@ -1,4 +1,4 @@
-# Backend experience  (vuepress)
+# Backend experience
 ## https://nikeweke.github.io/EXPA--Backend/
 
 #### Quick build and push
