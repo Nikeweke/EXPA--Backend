@@ -1,4 +1,11 @@
-# Backend experience  (vuepress) - https://nikeweke.github.io/EXPA--Backend/
+# Backend experience  (vuepress)
+## https://nikeweke.github.io/EXPA--Backend/
+
+#### Quick build and push
+```
+npm run docs:push
+```
+
 * [PHP](/php.md)  
    * [Examples](/php/examples-and-solutions.md)
    * [Composer](/php/composer.md)
