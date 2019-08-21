@@ -50,7 +50,10 @@ module.exports = {
           '/golang/useful-links.md',
         ]
       },
-      '/c-sharp.md'
+
+      '/c-sharp.md',
+      
+      '/cpp.md'
     ]
   }
 }
